@@ -1,16 +1,32 @@
 .Home{
-  height: 94vh;
-  margin-top: 6vh;
+  height: 100vh;
+  padding-top: 7vh;
 }
 
 @media only screen and (max-width: 740px) and (min-width: 400px){
   .Home{
-    margin-top: 10vh;
+    padding-top: 10vh;
   }  
 }
 
-.mobile-toggle {
-  position: fixed;
-  top: 0;
-  right: 0;
+.home-content{
+  margin: 300px 100px 0 250px;
+  height: 300px;  
+  border: 1px solid black;
+}
+
+@media only screen and (max-width: 740px){
+  .home-content{
+    margin: 30px 10px 0 25px;
+    height: 300px;  /* Este se borra luego de un tiempo */
+
+    border: 1px solid black;
+  }
+}
+
+.title {
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 0.37px;
+  font-weight: bold;
 }
