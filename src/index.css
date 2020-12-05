@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.blur{
+  filter: blur(3px);
+  z-index: -1;
+}
+

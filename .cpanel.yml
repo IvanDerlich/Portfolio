@@ -1,5 +1,0 @@
-deployment:
-  tasks:
-    - npm run build
-    - export DEPLOYPATH=/home/ivanltje/portfolio-testing/
-    - /bin/cp -R build $DEPLOYPATH

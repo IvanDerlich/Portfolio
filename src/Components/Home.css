@@ -1,0 +1,16 @@
+.Home{
+  height: 94vh;
+  margin-top: 6vh;
+}
+
+@media only screen and (max-width: 740px) and (min-width: 400px){
+  .Home{
+    margin-top: 10vh;
+  }  
+}
+
+.mobile-toggle {
+  position: fixed;
+  top: 0;
+  right: 0;
+}

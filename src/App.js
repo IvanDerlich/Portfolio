@@ -1,10 +1,18 @@
-import background from './media/images/background.jpg';
 import './App.css';
+import About from './Components/About'
+import Contact from './Components/Contact'
+import Header from './Components/Header'
+import Home from './Components/Home'
+import Projects from './Components/Projects'
 
 function App() {
   return (
     <div className="App"> 
-      <img class="background" src={background} alt="Under Construction"></img>      
+      <Header/>
+      <Home/>
+      <Projects/>
+      <About/>
+      <Contact/>         
     </div>
   );
 }
