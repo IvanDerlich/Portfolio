@@ -1,6 +1,7 @@
-.Home{
-  height: 100vh;
+.Home{    
+  min-height: 100vh;
   padding-top: 7vh;
+  padding-bottom: 7vh;;
 }
 
 @media only screen and (max-width: 740px) and (min-width: 400px){
@@ -9,11 +10,9 @@
   }  
 }
 
-
 .home-content{
   margin: 300px 100px 0 250px;
-  height: 300px;  
-  /* border: 1px solid black; */
+  min-height: 300px;  
 }
 
 @media only screen and (max-width: 740px){

@@ -1,9 +1,11 @@
 import './Projects.css';
+import Template from './Template';
 
 function Projects() {
   return (
     <div className="Projects" id="projects"> 
-      Projects
+      Projects      
+      <Template name="SpaceShooter" ></Template>
     </div>
   );
 }
