@@ -1,5 +1,5 @@
 import React from 'react';
-import './SpaceShooter.css';
+import './Fakebook.css';
 import image from '../../media/images/Projects-Fakebook.gif'
 
 class Project extends React.Component {
@@ -9,11 +9,11 @@ class Project extends React.Component {
   
   render(){
     return (
-      <div className="container reverse" id={this.props.name}>  
-        <div class="image-container ">         
+      <div className="container fakebook-container reverse" id={this.props.name}>  
+        <div class="image-container fakebook-image">         
           <img src={image} alt="Space Shooter"></img>
         </div> 
-        <div class="description" >
+        <div class="description fakebook-description" >
           <div class="title">Fakebook</div>
           <div class="text">An Rails built Social Network with basic functions from a real social network</div>
           <div class="tags">

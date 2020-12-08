@@ -9,11 +9,11 @@ class Project extends React.Component {
   
   render(){
     return (
-      <div className="container" id={this.props.name}>         
-        <div class="image-container ">         
+      <div className="container space-shooter-container" id={this.props.name}>         
+        <div class="image-container space-shooter-image">         
           <img src={image} alt={image}></img>
         </div>
-        <div class="description" >
+        <div class="description space-shooter-description" >
           <div class="title">Space Shooter</div>
           <div class="text">An old-time style space shooter game</div>
           <div class="tags">

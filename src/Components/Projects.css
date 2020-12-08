@@ -12,10 +12,9 @@
 
 .container{
   display: flex;
-  flex-wrap: wrap;
   margin: 200px 0;  
   align-items: center;
-  justify-content: center;
+  flex-direction: row;
 }
 
 .reverse{
@@ -28,18 +27,7 @@
   border-radius: 30px;
   display: flex;
   justify-content: space-around;  
-  width: 520px;   
   height:600px;
-}
-
-@media only screen and (max-width: 740px){
-  .image-container{
-    width:50%;
-  }
-} 
-
-.image-container>img{
-  height: 600px;
 }
 
 .description{
