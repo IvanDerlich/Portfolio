@@ -1,11 +1,12 @@
 import './Projects.css';
-import Template from './Template';
+import SpaceShooter from './Projects/SpaceShooter'
+import Fakebook from './Projects/Fakebook'
 
 function Projects() {
   return (
     <div className="Projects" id="projects"> 
-      Projects      
-      <Template name="SpaceShooter" ></Template>
+      <SpaceShooter></SpaceShooter>
+      <Fakebook></Fakebook>
     </div>
   );
 }

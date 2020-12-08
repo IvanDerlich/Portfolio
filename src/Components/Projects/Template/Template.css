@@ -3,7 +3,8 @@
   flex-wrap: wrap;
 }
 .image{
-  background-color: grey;  
+  background-color: #E6E6E2;
+  margin: 0px auto;
 }
 
 .description{
