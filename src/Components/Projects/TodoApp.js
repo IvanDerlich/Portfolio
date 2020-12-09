@@ -9,11 +9,11 @@ class Project extends React.Component {
   
   render(){
     return (
-      <div className="container todo-app-container reverse" id={this.props.name}>         
-        <div class="image-container todo-app-image">         
+      <div className="container" id={this.props.name}>         
+        <div class="image-container todo-app ">         
           <img src={image} alt={image}></img>
         </div>
-        <div class="description todo-app-description" >                                
+        <div class="description  reverse" >                                
           <div class="title">To Do App</div>
           <div class="text">A Single Page Aplication using only JavaScipt</div>
           <div class="tags">

@@ -1,31 +1,3 @@
-.fakebook-image{
-  width: 75%;
-}
-
-.fakebook-description{
-  width:25%;
-}
-
-/* .fakebook-container{
-  margin-left: 0 auto;
-} */
-
-@media only screen and (max-width: 1150px){
-  .fakebook-container{
-    flex-direction: column;
-  }
-  .fakebook-image{
-    width:100%;
-  }
-  .tags{
-    justify-content: center;
-  }
-  .fakebook-description{
-    text-align: center;
-    width:80%;
-  } 
-}
-
-.fakebook-image>img{
-  width: 650px;
+.fakebook>img,.fakebook{
+  height: 350px;
 }

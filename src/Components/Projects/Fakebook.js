@@ -9,11 +9,11 @@ class Project extends React.Component {
   
   render(){
     return (
-      <div className="container fakebook-container reverse" id={this.props.name}>  
-        <div class="image-container fakebook-image">         
+      <div className="container" id={this.props.name}>  
+        <div class="image-container fakebook">         
           <img src={image} alt="Space Shooter"></img>
         </div> 
-        <div class="description fakebook-description" >
+        <div class="description reverse" >
           <div class="title">Fakebook</div>
           <div class="text">An Rails built Social Network with basic functions from a real social network</div>
           <div class="tags">

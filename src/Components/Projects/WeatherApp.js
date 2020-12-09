@@ -9,11 +9,11 @@ class Project extends React.Component {
   
   render(){
     return (
-      <div className="container weather-app-container" id={this.props.name}>         
-        <div class="image-container weather-app-image">         
+      <div className="container" id={this.props.name}>         
+        <div class="image-container weather-app">         
           <img src={image} alt={image}></img>
         </div>
-        <div class="description weather-app-description" >
+        <div class="description" >
           <div class="title">Weather App</div>
           <div class="text">A JavaScript App that makes API calls</div>
           <div class="tags">
