@@ -91,3 +91,15 @@
   }
 }
 
+.more-container{
+  display: flex;
+  justify-content: center;
+}
+
+.more{  
+  margin-bottom: 10%;
+  font-size: 40px;
+  width: 400px;
+  padding-bottom: 35px;
+  padding-top: 35px;
+}
