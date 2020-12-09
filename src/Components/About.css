@@ -1,4 +1,30 @@
 .About{
-  background-color: cadetblue;
-  height: 100vh;
+  /* height: 100vh; */
+  display: flex;
+  margin-right: 30px;
+  margin-left: 30px;
+  height: 800px;     
+}
+
+.myself{
+  width:40%;   
+  padding: 40px;
+}
+
+.skills{
+  width: 60%;    
+  padding-right: 200px;
+}
+
+.margin{
+  margin-bottom: 40px;
+}
+
+.capabilities{
+  border-bottom: 1px solid #DFE1E6 ;
+  line-height: 24px;
+  font-size: 20px;
+  color: #344563;
+  padding: 30px;
+  display: flex;
 }
