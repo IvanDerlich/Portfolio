@@ -21,6 +21,9 @@ class Project extends React.Component {
           <a href="https://github.com/IvanDerlich/weather-app" class="link">
             See Project
           </a>
+          <a href="http://ivanderlich-weather-app.surge.sh/" class="link">
+            Live Version
+          </a>
         </div>        
       </div>
     );

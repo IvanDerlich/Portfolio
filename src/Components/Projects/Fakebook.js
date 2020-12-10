@@ -20,6 +20,9 @@ class Project extends React.Component {
           <a href="https://github.com/IvanDerlich/Fakebook" class="link">
             See Project
           </a>
+          <a href="https://afternoon-wave-75260.herokuapp.com/" class="link">
+            Live Version
+          </a>
         </div>   
             
       </div>

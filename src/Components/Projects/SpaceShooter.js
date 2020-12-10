@@ -20,6 +20,9 @@ class Project extends React.Component {
           <a href="https://github.com/IvanDerlich/space-shooter-game" class="link">
             See Project
           </a>
+          <a href="https://ivanderlich-space-shooter.netlify.app/" class="link">
+            Live Version
+          </a>
         </div>        
       </div>
     );
