@@ -13,9 +13,10 @@ class Project extends React.Component {
         <div class="description reverse" >
           <div class="title">Fakebook</div>
           <div class="text">A Rails built Social Network with basic functions from a real social network</div>
-          <div class="tags">
+          <div class="tags">          
             <div>Rails</div>
             <div>PostgresQL</div>
+            <div>Ruby</div>
           </div>
           <a href="https://github.com/IvanDerlich/Fakebook" class="link">
             See Project
