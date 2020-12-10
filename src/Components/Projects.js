@@ -4,11 +4,8 @@ import Fakebook from './Projects/Fakebook'
 import WeatherApp from './Projects/WeatherApp'
 import ToDoApp from './Projects/TodoApp'
 
-function moreClick(){  
-  window.location.href = "https://github.com/Ivanderlich"
-}
-
 function Projects() {
+  
   return (
     <div className="Projects" id="projects">
       <SpaceShooter></SpaceShooter>
@@ -16,7 +13,10 @@ function Projects() {
       <WeatherApp></WeatherApp>
       <ToDoApp></ToDoApp>
       <div class="more-container">
-        <div onClick={moreClick} class="link more">More Projects</div>
+        <a href="https://github.com/Ivanderlich"        
+          class="link more">
+          More Projects
+        </a>
       </div>
     </div>
   )

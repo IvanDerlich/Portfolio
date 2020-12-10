@@ -3,9 +3,6 @@ import './TodoApp.css';
 import image from '../../media/images/Projects-ToDoApp.gif'
 
 class Project extends React.Component {
-  linkClick(){
-    window.location.href = 'https://github.com/IvanDerlich/to-do';
-  }
   
   render(){
     return (
@@ -21,9 +18,9 @@ class Project extends React.Component {
             <div>HTML</div>
             <div>CSS</div>
           </div>
-          <div onClick={this.linkClick} class="link">
+          <a href="https://github.com/IvanDerlich/to-do" class="link">
             See Project
-          </div>
+          </a>
         </div>        
       </div>
     );

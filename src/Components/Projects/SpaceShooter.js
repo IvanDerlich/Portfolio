@@ -3,9 +3,6 @@ import './SpaceShooter.css';
 import image from '../../media/images/Projects-SpaceShooter.gif'
 
 class Project extends React.Component {
-  linkClick(){
-    window.location.href = 'https://github.com/IvanDerlich/space-shooter-game';
-  }
   
   render(){
     return (
@@ -20,9 +17,9 @@ class Project extends React.Component {
             <div>JavaScript</div>
             <div>Phaser</div>
           </div>
-          <div onClick={this.linkClick} class="link">
+          <a href="https://github.com/IvanDerlich/space-shooter-game" class="link">
             See Project
-          </div>
+          </a>
         </div>        
       </div>
     );

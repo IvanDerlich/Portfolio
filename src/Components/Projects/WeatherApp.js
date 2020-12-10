@@ -3,9 +3,6 @@ import './WeatherApp.css';
 import image from '../../media/images/Projects-WeatherApp.gif'
 
 class Project extends React.Component {
-  linkClick(){
-    window.location.href = 'https://github.com/IvanDerlich/weather-app';
-  }
   
   render(){
     return (
@@ -21,9 +18,9 @@ class Project extends React.Component {
             <div>HTML</div>
             <div>CSS</div>
           </div>
-          <div onClick={this.linkClick} class="link">
+          <a href="https://github.com/IvanDerlich/weather-app" class="link">
             See Project
-          </div>
+          </a>
         </div>        
       </div>
     );

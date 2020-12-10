@@ -49,6 +49,7 @@ nav{
   font-style: normal;
   font-weight: bold;  
   cursor: pointer;
+  color: #3642ab;
 }
 
 @media only screen and (max-width: 740px){
