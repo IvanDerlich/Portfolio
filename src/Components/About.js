@@ -7,7 +7,7 @@ import CSSImage from '../media/images/skills/CSS.svg'
 import rubyImage from '../media/images/skills/Ruby.png'
 import railsImage from '../media/images/skills/Rails.png'
 import phaserImage from '../media/images/skills/Phaser.svg'
-import bootstrapImage from '../media/images/skills/Bootstrap.png'
+import reactImage from '../media/images/skills/React.png'
 import TDDImage from '../media/images/skills/TDD.png'
 import pairProgrammingImage from '../media/images/skills/PairProgramming.png'
 
@@ -120,13 +120,13 @@ class About extends React.Component {
                 <div>Rails</div>
               </div>
               <div class="skills-item">
-                <img src={phaserImage} alt="Phaser" class="skills-image"></img>
-                <div>Phaser</div>
+                <img src={reactImage} alt="React" class="skills-image"></img>
+                <div>React</div>
               </div>
               <div class="skills-item">
-                <img src={bootstrapImage} alt="Bootstrap" class="skills-image"></img>
-                <div>Bootstrap</div>
-              </div>    
+                <img src={phaserImage} alt="Phaser" class="skills-image"></img>
+                <div>Phaser</div>
+              </div>                 
             </div>        
           </div>
           <div class="capabilities-supra">
