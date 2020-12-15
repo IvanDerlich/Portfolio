@@ -1,8 +1,8 @@
 import React from 'react';
-import './TodoApp.css';
-import image from '../../media/images/Projects-ToDoApp.gif'
+import './Calculator.css';
+import image from '../../media/images/Projects-Calculator.gif'
 
-class Project extends React.Component {
+class Calculator extends React.Component {
   
   render(){
     const openNewTab = this.props.clickHandler;
@@ -11,25 +11,25 @@ class Project extends React.Component {
         <div class="image-container todo-app ">         
           <img src={image} alt={image}></img>
         </div>
-        <div class="description  reverse" >                                
-          <div class="title">To Do App</div>
-          <div class="text">A responsive and statefull web app</div>
-          <div class="text">that helps you organize yout tasks.</div>
+        <div class="description" >                                
+          <div class="title">Calculator</div>
+          <div class="text">A calculator with the mechanics of the old-time calculators</div>
+          <div class="text">Built with React.js and deployed to Heroku</div>
           <div class="tags">
-            <div>JavaScript</div>
+            <div>React.js</div>
             <div>HTML</div>
             <div>CSS</div>
           </div>
           <a
             onClick={openNewTab}
             onMouseDown={openNewTab} 
-            href="https://github.com/IvanDerlich/to-do" class="link">
+            href="https://github.com/IvanDerlich/Calculator" class="link">
             See Project
           </a>
           <a
             onClick={openNewTab}
             onMouseDown={openNewTab} 
-            href="https://ivanderlich.github.io/to-do/" class="link">
+            href="https://ivanderlich-calculator.herokuapp.com/" class="link">
             Live Version
           </a>
         </div>        
@@ -38,4 +38,4 @@ class Project extends React.Component {
   }  
 }
 
-export default Project;
+export default Calculator;

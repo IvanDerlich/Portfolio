@@ -1,9 +1,14 @@
 import './Footer.css';
 
-function Footer() {
+function Footer(props) {
+  const openNewTab = props.clickHandler;
   return (
     <div className="Footer" id="footer"> 
-      Made by <a href="http://linktr.ee/ivanderlich">Ivan Derlich</a> 2020 with React.js
+      Made by <a 
+        onClick={openNewTab} 
+        onMouseDown={openNewTab}
+        href="http://linktr.ee/ivanderlich"
+        >Ivan Derlich</a> 2020 with React.js
     </div>
   );
 }

@@ -5,6 +5,7 @@ import image from '../../media/images/Projects-WeatherApp.gif'
 class Project extends React.Component {
   
   render(){
+    const openNewTab = this.props.clickHandler;
     return (
       <div className="container" id={this.props.name}>         
         <div class="image-container weather-app">         
@@ -12,16 +13,24 @@ class Project extends React.Component {
         </div>
         <div class="description" >
           <div class="title">Weather App</div>
-          <div class="text">A JavaScript App that makes API calls</div>
+          <div class="text">An app that tells you the weather all around the world.</div>
+          <div class="text">Just type the city and it retrives the weather from another server.</div>
+          <div class="text">This app gets the info through asynchrous API calls.</div>
           <div class="tags">
             <div>JavaScript</div>
             <div>HTML</div>
             <div>CSS</div>
           </div>
-          <a href="https://github.com/IvanDerlich/weather-app" class="link">
+          <a 
+            onClick={openNewTab}
+            onMouseDown={openNewTab}
+            href="https://github.com/IvanDerlich/weather-app" class="link">
             See Project
           </a>
-          <a href="http://ivanderlich-weather-app.surge.sh/" class="link">
+          <a
+            onClick={openNewTab}
+            onMouseDown={openNewTab} 
+            href="http://ivanderlich-weather-app.surge.sh/" class="link">
             Live Version
           </a>
         </div>        
