@@ -14,8 +14,9 @@ class Project extends React.Component {
         <div class="description" >
           <div class="title">Weather App</div>
           <div class="text">An app that tells you the weather all around the world.</div>
-          <div class="text">Just type the city and it retrieves the weather from another server.</div>
-          <div class="text">This app gets the info through asynchronous API calls.</div>
+          <div class="text">Just type the city and it will retrieve to </div>
+          <div class="text">you the weather from another server.</div>
+          <div class="text">This app gets the info using asynchronous API calls.</div>
           <div class="tags">
             <div>JavaScript</div>
             <div>HTML</div>
