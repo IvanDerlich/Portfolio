@@ -6,7 +6,7 @@ function Home(props) {
   return (
     <div className="Home" id="home">
       <div className="home-content">
-        <div class="title" >Hi I'm Ivan</div>
+        <div class="title" >Hi! I'm Ivan</div>
         <div class="title" >Welcome to my website!</div>
         <br>
 
