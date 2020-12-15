@@ -13,8 +13,8 @@ class Project extends React.Component {
         </div>
         <div class="description  reverse" >                                
           <div class="title">To Do App</div>
-          <div class="text">A responsive and statefull web app</div>
-          <div class="text">that helps you organize yout tasks.</div>
+          <div class="text">A responsive and stateful web app</div>
+          <div class="text">that helps you organize your tasks.</div>
           <div class="tags">
             <div>JavaScript</div>
             <div>HTML</div>

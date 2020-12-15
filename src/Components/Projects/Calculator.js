@@ -13,8 +13,8 @@ class Calculator extends React.Component {
         </div>
         <div class="description" >                                
           <div class="title">Calculator</div>
-          <div class="text">A calculator with the mechanics of the old-time calculators</div>
-          <div class="text">Built with React.js and deployed to Heroku</div>
+          <div class="text">A calculator with the mechanics of the old-time calculators.</div>
+          <div class="text">Built with React.js and deployed to Heroku.</div>
           <div class="tags">
             <div>React.js</div>
             <div>HTML</div>
