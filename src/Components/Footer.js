@@ -8,6 +8,7 @@ function Footer(props) {
         onClick={openNewTab} 
         onMouseDown={openNewTab}
         href="http://linktr.ee/ivanderlich"
+        class="footer-link"
         >Ivan Derlich</a> 2020 with React.js
     </div>
   );
