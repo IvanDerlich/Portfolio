@@ -12,8 +12,8 @@
 }
 
 .home-content{
-  margin: 300px 100px 0 250px;
-  min-height: 300px;  
+  margin: 250px 100px 0 250px;
+  /* min-height: 150px;   */
 }
 
 @media only screen and (max-width: 740px){
