@@ -1,3 +1,10 @@
-.todo-app>img,.todo-app{
-  height: 300px;
-}
+/* .todo-app>img,.todo-app{
+  height: 100px;
+} */
+
+/*
+@media only screen and (max-width: 740px){
+  .todo-app>img,.todo-app{
+    height: 600px;
+  }
+} */

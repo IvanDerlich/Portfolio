@@ -1,7 +1,8 @@
 .Home{    
+  /* Requested mi Microverse to change this
   min-height: 100vh;
   padding-top: 7vh;
-  padding-bottom: 7vh;;
+  padding-bottom: 7vh;; */
 }
 
 @media only screen and (max-width: 740px) and (min-width: 400px){
